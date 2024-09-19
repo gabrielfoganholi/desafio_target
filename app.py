@@ -1,4 +1,4 @@
-# Questão 1
+# Questão 1:
 
 indice = 13  
 soma = 0 
@@ -10,7 +10,7 @@ while k < indice:
 
 print(soma)
 
-# Questão 2
+# Questão 2:
 
 def fibonacci(n):
     a,b = 0, 1
@@ -24,7 +24,7 @@ if fibonacci(num):
 else:
     print(f"{num} não pertence a sequência de fibonacci.")
 
-# Questão 3
+# Questão 3:
 
 import json
 
@@ -41,7 +41,7 @@ print(f"O menor valor de faturamento ocorrido em um dia do mês: R${menor_valor:
 print(f"O maior valor de faturamento ocorrido em um dia do mês: R${maior_valor:.2f}")
 print(f"Número de dias no mês em que o valor de faturamento diário foi superior à média mensal: {dias_acima_da_media} dias")
 
-# Questão 4
+# Questão 4:
 
 faturamento = {
     "SP": 67836.43,
@@ -57,7 +57,7 @@ for estado, valor in faturamento.items():
     percentual = (valor / valor_total) * 100
     print(f"Percentual de {estado}: {percentual:.2f}%")
 
-# Questão 5
+# Questão 5:
 
 def inverter_string(s):
     resultado = ""
